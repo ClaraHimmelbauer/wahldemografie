@@ -27,7 +27,7 @@ nrw17 <- nrw17[, 5:7]
 colnames(eu24)[1:2] <- colnames(eu19)[1:2] <- colnames(nrw19)[1:2] <- colnames(nrw17)[1:2] <- c("bez", "spr")
 
 # intersections -----------------------------------------------------------------------------------
-# jeder Loop dauert ca 3 Stunden!
+# jeder Loop dauert 2-3 Stunden!
 
 out <- c()
 for(i in 1:nrow(eu19)){
